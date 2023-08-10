@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
+import Events from "../components/events";
 import { benefitOne, benefitTwo } from "../components/data";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
@@ -30,8 +31,8 @@ const Home = () => {
         and indie projects. Its built with Next.js & TailwindCSS. And its
         completely open-source.
       </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      <Events />
+      
 
 
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
