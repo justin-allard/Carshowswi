@@ -7,9 +7,9 @@ import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
   const navigation = [
-    "Calendar",
-    "Goals",
+    "Events",
     "Sponsor",
+    "About",
     "Contact",
   ];
 
@@ -91,7 +91,7 @@ const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/" className="px-6 py-2 text-white bg-blue rounded-md md:ml-5">
-              Submit Show
+              Submit Event
           </Link>
 
           <ThemeChanger />
