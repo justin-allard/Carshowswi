@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import heroImg from "../public/img/trucks.png";
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-blue rounded-md ">
-                Submit Show
+                Submit Event
               </a>
               
             </div>

@@ -15,7 +15,7 @@ const Events  = () => {
         <p class="text-gray-700 mb-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
         <div class="flex justify-between mt-4">
           <span class="font-thin text-sm">May 20th 2020</span>
-          <span class="mb-2 text-gray-800 font-bold">Read more</span>
+          <span class="mb-2 blue-text font-bold">Read more</span>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@ const Events  = () => {
         <p class="text-gray-700 mb-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
         <div class="flex justify-between mt-4">
           <span class="font-thin text-sm">May 20th 2020</span>
-          <span class="mb-2 text-gray-800 font-bold">Read more</span>
+          <span class="mb-2 blue-text font-bold">Read more</span>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@ const Events  = () => {
         <p class="text-gray-700 mb-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
         <div class="flex justify-between mt-4">
           <span class="font-thin text-sm">May 20th 2020</span>
-          <span class="mb-2 text-gray-800 font-bold">Read more</span>
+          <span class="mb-2 blue-text font-bold">Read more</span>
         </div>
       </div>
     </div>

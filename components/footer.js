@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import btlogo from "../public/img/bt-logo.png";
 import React from "react";
 import Container from "./container";
 
@@ -21,20 +22,18 @@ export default function Footer() {
               {" "}
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <Image
-                      src="/img/logo.svg"
+                      src={btlogo}
                       alt="N"
                       width="32"
                       height="32"
-                      className="w-8"
+                      className="w-16"
                     />
-                  <span>Nextly</span>
+                  <span>CARSHOWSWI.COM</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+            CARSHOWSWI.COM is your one stop site for finding car shows in Wisconsin. Our goal is to create a site where anyone can submit a show and we will list it on our site for free.
             </div>
 
             <div className="mt-5">
