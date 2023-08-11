@@ -3,8 +3,6 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 import Events from "../components/events";
-import { benefitOne, benefitTwo } from "../components/data";
-import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
