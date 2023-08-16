@@ -10,7 +10,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: ".",
+  assetPrefix: "https://carshowswi.vercel.app",
+
  
   // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
   // skipTrailingSlashRedirect: true,

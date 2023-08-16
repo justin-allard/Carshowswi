@@ -1,18 +1,18 @@
 import Head from "next/head";
-
+import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 import Events from "../components/events";
-
 import Footer from "../components/footer";
 import Cta from "../components/cta";
+import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 
-const Calendar = () => {
+const EventsPage = () => {
   return (
     <>
       <Head>
-        <title>Calendar - Car Shows WI</title>
+        <title>Events - Car Shows WI</title>
         <meta
           name="description"
           content="Nextly is a free landing page template built with next.js & Tailwind CSS"
@@ -21,17 +21,16 @@ const Calendar = () => {
       </Head>
 
       <Navbar />
-
+      <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
+        
+        title="Upcoming Car Shows">
         Nextly is a free landing page & marketing website template for startups
         and indie projects. Its built with Next.js & TailwindCSS. And its
         completely open-source.
       </SectionTitle>
       <Events />
       
-
 
       <Cta />
       <Footer />
@@ -40,4 +39,4 @@ const Calendar = () => {
   );
 }
 
-export default Calendar;
+export default EventsPage;
