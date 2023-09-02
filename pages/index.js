@@ -15,7 +15,7 @@ const Home = () => {
         <title>Car Shows WI</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Car Shows WI is a site that lets car shows and car related events advertise and list their events for free."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -25,17 +25,14 @@ const Home = () => {
       <SectionTitle
         
         title="Upcoming Car Shows">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        View a full list of up coming car shows and events on our Events page.
       </SectionTitle>
       <Events />
       
 
 
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle title="Frequently Asked Questions">
+        Please feel free to reach out with any questions using our contact us form.
       </SectionTitle>
       <Faq />
       <Cta />
