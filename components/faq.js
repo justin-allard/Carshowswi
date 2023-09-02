@@ -35,22 +35,22 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What does it cost to list a car show?",
+    answer: "It is completely free to list a car show on our site.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Do we post cancellations?",
+    answer: "We will post cancellations if we are notifited. Since we are crowd sourced, we may not be aware of cancellations.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Can I sponsor your site?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Yes! We are still working out what that will look like but would love to chat. Please fill out the Contact form.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Is this site for just car shows?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "We are primarily advertising just car shows, meet ups, and car swap meets at this time. If you are not sure if your event might be a good fit for your site, submit an event and we will let you know.",
   },
 ];
 
